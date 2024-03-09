@@ -1,0 +1,52 @@
+.client-section{
+  width: 95%;
+  height: 90%;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* Estilos futuristas */
+table {
+  border-spacing: 0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+th,
+td {
+  padding: 16px;
+}
+
+th {
+  background-color: #007bff;
+  color: white;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+td {
+  background-color: #f7f7f7;
+}
+
+tr:hover td {
+  background-color: #e3e3e3;
+}
