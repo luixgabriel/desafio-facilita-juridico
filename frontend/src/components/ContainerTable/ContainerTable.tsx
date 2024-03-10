@@ -42,7 +42,7 @@ const ContainerTable = () => {
     <section className="main-section">
       <div className="filterFields">
         <div className="createButton">
-          <button onClick={handleOpenModal}>Cadastrar nova empresa</button>
+          <button onClick={handleOpenModal}>Cadastrar novo cliente</button>
         </div>
         <div className="selectFields">
           <label htmlFor="sortBy">Ordenar empresas por:</label>

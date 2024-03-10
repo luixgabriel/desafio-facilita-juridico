@@ -3,6 +3,7 @@ import "./RegisterModal.css";
 import { Client } from "../../types/Client";
 import { useContext } from "react";
 import { ClientContext } from "../../context/ClientContext";
+import 'animate.css';
 
 interface RegisterModalProps {
   isOpen: boolean;
@@ -13,20 +14,22 @@ const RegisterModal = ({ isOpen, onClose }: RegisterModalProps) => {
   const {
     register,
     handleSubmit,
+    reset,
     formState: { errors },
   } = useForm<Client>();
   const { handleRegisterClient } = useContext(ClientContext);
   const onSubmit = async (data: Client) => {
     handleRegisterClient(data);
+    reset()
     onClose();
   };
 
   if (!isOpen) return null;
 
   return (
-    <div className="modal-overlay">
+    <div className="modal-overlay animate__animated animate__fadeIn">
       <div className="modal">
-        <h2>Cadastro de Nova Empresa</h2>
+        <h2>Cadastro de Novo Cliente</h2>
         <form onSubmit={handleSubmit(onSubmit)}>
           <div className="input-group">
             <label htmlFor="name">Nome:</label>

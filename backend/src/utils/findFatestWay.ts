@@ -46,6 +46,7 @@ function calcRoute(clients: Client[]) {
         coordx: 0,
         coordy: 0
     }); // Retornando à empresa
+    
     return route;
 }
 
