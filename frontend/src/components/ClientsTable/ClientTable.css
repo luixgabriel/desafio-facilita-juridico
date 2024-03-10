@@ -1,6 +1,16 @@
-.client-section{
+.client-section {
   width: 95%;
   height: 90%;
+}
+
+.noClients {
+  color: white;
+  display: flex;
+  border-radius: 50px;
+  justify-content: center;
+  align-items: center;
+  height: 40%;
+  font-size: 40px;
 }
 table {
   width: 100%;

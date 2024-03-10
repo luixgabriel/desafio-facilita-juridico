@@ -40,7 +40,7 @@ function calcRoute(clients: Client[]) {
 
     route.push({
         id: '0',
-        name: "Sede",
+        name: "Voltar a sede",
         email: "sede@gmail.com",
         telephone: "00000000",
         coordx: 0,
