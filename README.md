@@ -60,3 +60,6 @@ npm run dev
 https://github.com/luixgabriel/desafio-facilita-juridico/assets/70019908/4b24604e-7559-46b6-be95-89499c444f71
 
 Desenvolvido por [Luis Gabriel](https://github.com/luixgabriel).
+
+
+[Meu Linkedin.](https://www.linkedin.com/in/luis-gabriel-a447081b2/)
